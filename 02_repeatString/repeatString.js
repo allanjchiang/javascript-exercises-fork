@@ -1,5 +1,5 @@
 let randomNum;
-let string;
+let string = "hey";
 
 function generateRandomNumber() {
     const number = Math.floor(Math.random() * 1000);
@@ -7,7 +7,7 @@ function generateRandomNumber() {
 }
 
 function repeatString() {
-    generateRandomNumber();
+    
 }
 
 // Do not edit below this line
