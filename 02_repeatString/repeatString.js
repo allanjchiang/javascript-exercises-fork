@@ -2,8 +2,10 @@ const repeatString = function() {
     let string = '';
 
     for(let i = 0; i < 3; i++) {
-        return string += 'hey';
+        string += 'hey';
     }
+
+    return string;
 };
 
 // Do not edit below this line
