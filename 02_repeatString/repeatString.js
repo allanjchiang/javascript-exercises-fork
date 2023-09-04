@@ -3,6 +3,7 @@ let string;
 
 function generateRandomNumber() {
     const number = Math.floor(Math.random() * 1000);
+    return number;
 }
 
 function repeatString() {
