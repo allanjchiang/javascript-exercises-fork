@@ -1,8 +1,10 @@
-let randomNum;
-let string = "hey";
+let string = "";
 
-function repeatString() {
-    return string.repeat(number);
+function repeatString(hey, num) {
+    for(let i = 0; i < num; i++) {
+        string += hey;
+    }
+    return string;
 }
 
 // Do not edit below this line
