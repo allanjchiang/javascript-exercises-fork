@@ -1,13 +1,8 @@
 let randomNum;
 let string = "hey";
 
-function generateRandomNumber() {
-    const number = Math.floor(Math.random() * 1000);
-    return number;
-}
-
 function repeatString() {
-    return string.repeat(generateRandomNumber());
+    return string.repeat(number);
 }
 
 // Do not edit below this line
