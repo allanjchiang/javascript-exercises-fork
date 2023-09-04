@@ -1,6 +1,6 @@
 let randomNum;
 
-function generateRandomNumber(num) {
+function generateRandomNumber() {
     randomNum = Math.floor(Math.random() * 1000);
 }
 
