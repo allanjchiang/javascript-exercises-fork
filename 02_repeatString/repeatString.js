@@ -7,7 +7,7 @@ function generateRandomNumber() {
 }
 
 function repeatString() {
-    string.repeat(generateRandomNumber());
+    return string.repeat(generateRandomNumber());
 }
 
 // Do not edit below this line
