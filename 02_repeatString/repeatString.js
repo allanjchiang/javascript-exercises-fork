@@ -1,10 +1,10 @@
-const generateRandomNumber = function(num) {
+generateRandomNumber(num) {
     let num = Math.floor(Math.random() * 1000);
 }
 
-const repeatString = function() {
+function repeatString() {
     
-};
+}
 
 // Do not edit below this line
 module.exports = repeatString;
