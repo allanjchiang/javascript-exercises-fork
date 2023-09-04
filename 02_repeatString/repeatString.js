@@ -1,12 +1,12 @@
 let randomNum;
 let string;
 
-function generateRandomNumber() {
-    const number = Math.floor(Math.random() * 1000);
-    return number;
-}
-
 function repeatString() {
+    function generateRandomNumber() {
+        const number = Math.floor(Math.random() * 1000);
+        return number;
+    }
+
     for(let i = 0; i < generateRandomNumber(); i++) {
         string += "hey";
     }
