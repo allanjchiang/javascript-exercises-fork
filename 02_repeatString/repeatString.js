@@ -8,7 +8,7 @@ function generateRandomNumber() {
 
 function repeatString() {
     for(let i = 0; i < generateRandomNumber(); i++) {
-        string += "hey";
+        string += "hey ";
     }
 
     return string;
