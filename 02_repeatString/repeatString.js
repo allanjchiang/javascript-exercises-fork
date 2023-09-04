@@ -5,7 +5,8 @@ function generateRandomNumber() {
 }
 
 function repeatString() {
-
+    num = generateRandomNumber();
+    return num;
 }
 
 // Do not edit below this line
