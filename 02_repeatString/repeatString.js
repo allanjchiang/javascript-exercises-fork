@@ -1,7 +1,7 @@
-let num;
+let randomNum;
 
 function generateRandomNumber(num) {
-    let num = Math.floor(Math.random() * 1000);
+    randomNum = Math.floor(Math.random() * 1000);
 }
 
 function repeatString() {
