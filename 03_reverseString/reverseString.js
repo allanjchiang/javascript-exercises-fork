@@ -1,5 +1,5 @@
 const reverseString = function(words) {
-    words.split();
+    const reversedWord = words.split();
 };
 
 // Do not edit below this line
