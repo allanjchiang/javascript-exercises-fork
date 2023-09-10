@@ -1,8 +1,14 @@
-const removeFromArray = function(arr, n) {
-    const index = arr.indexOf(n);
-    if (index > -1) {
-        arr.splice(index, 1);
+const removeFromArray = function(arr, value) {
+    var i = 0;
+    
+    while(i < arr.length) {
+        if (arr[i] === value) {
+            arr.splice(i);
+        } else {
+            ++i;
+        }
     }
+
     return arr;
 };
 
