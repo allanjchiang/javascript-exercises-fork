@@ -1,7 +1,7 @@
 const removeFromArray = function(arr, ...manyMoreArgs) {
     const remove = manyMoreArgs;
 
-    for(let i = remove.length - 1; i >= 0; i--){
+    for(let i = remove.length; i >= 0; i--){
         arr.splice(remove[i], 1);
     }
 
