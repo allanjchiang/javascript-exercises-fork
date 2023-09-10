@@ -1,11 +1,12 @@
-const removeFromArray = function(arr, ...manyMoreArgs) {
-    const remove = manyMoreArgs;
+const removeFromArray = function(arr, ...args) {
+    const newArray = [];
 
-    for(let i = remove.length; i >= 0; i--){
-        arr.splice(remove[i], 1);
-    }
-
-    return arr;
+    arr.forEach((item) => {
+        if (!args.includes(item)) {
+            newArray.push(item);
+        }
+    });
+    return newArray;
 };
 
 // Do not edit below this line
