@@ -1,5 +1,8 @@
 const removeFromArray = function(arr, n) {
-    arr.splice(n, 1);
+    const index = arr.indexOf(n);
+    if (index > -1) {
+        arr.splice(index, 1);
+    }
     return arr;
 };
 
