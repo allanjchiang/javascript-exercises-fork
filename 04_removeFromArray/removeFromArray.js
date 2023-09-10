@@ -3,7 +3,7 @@ const removeFromArray = function(arr, value) {
     
     while(i < arr.length) {
         if (arr[i] === value) {
-            arr.splice(i);
+            arr.splice(i, 1);
         } else {
             ++i;
         }
