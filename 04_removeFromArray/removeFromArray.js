@@ -1,8 +1,12 @@
-const removeFromArray = function(arr) {
-    let values = "";
+const removeFromArray = function(arr, ...manyMoreArgs) {
+    let i = 0;
 
-    for(let i = 1; i < arguments.length; i++) {
-        arr.splice(arguments[i], arguments[i].length);
+    while(i < manyMoreArgs.length) {
+        if(i === manyMoreArgs) {
+            arr.splice(i, 1);
+        }
+
+        i++;
     }
 
     return arr;
