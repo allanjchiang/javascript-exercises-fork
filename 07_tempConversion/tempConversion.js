@@ -10,7 +10,8 @@ const convertToFahrenheit = function(cTemp) {
   let convertedTemp = "0";
 
   convertedTemp = (cTemp * 9 / 5 + 32);
-  return convertedTemp;
+  let roundedTemp = Math.round(convertedTemp * 10) / 10;
+  return roundedTemp;
 };
 
 // Do not edit below this line
