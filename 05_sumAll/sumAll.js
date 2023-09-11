@@ -1,6 +1,8 @@
 const sumAll = function(min, max) {
     let summedNum = 0;
-    if (typeof min === 'string' || typeof max === 'string') {
+    if (Array.isArray(min) || Array.isArray(max)) {
+        summedNum = "ERROR";
+    } else if (typeof min === 'string' || typeof max === 'string') {
         summedNum = "ERROR";
     } else if (min < 0 || max < 0) {
         summedNum = "ERROR";
