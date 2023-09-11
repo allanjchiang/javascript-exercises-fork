@@ -1,5 +1,5 @@
 const sumAll = function(min, max) {
-    let summedNum;
+    let summedNum = 0;
     for(let i = 0; i <= max; i++) {
         summedNum += i;
     }
