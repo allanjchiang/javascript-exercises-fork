@@ -1,6 +1,8 @@
 const sumAll = function(min, max) {
     let summedNum = 0;
-    if (max > min) {
+    if (min < 0 || max < 0) {
+        summedNum = "ERROR";
+    } else if (max > min) {
         for(let i = 0; i <= max; i++) {
             summedNum += i;
         }
