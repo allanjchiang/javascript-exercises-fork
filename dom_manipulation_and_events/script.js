@@ -1,1 +1,1 @@
-alert("Hello world");
+const container = document.querySelector('#container');
