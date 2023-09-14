@@ -1,2 +1,3 @@
-const button = document.querySelector(#btn);
+const button = document.querySelector('#btn');
 
+button.
