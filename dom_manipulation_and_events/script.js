@@ -15,3 +15,6 @@ div.style.cssText = 'border: black 1px solid; background-color: pink;';
 
 const h1 = document.createElement('h1');
 h1.textContent = 'I\'m in a div!';
+
+const pInDiv = document.createElement('p');
+pInDiv.textContent = 'ME TOO!';
