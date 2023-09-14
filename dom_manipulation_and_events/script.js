@@ -18,3 +18,6 @@ h1.textContent = 'I\'m in a div!';
 
 const pInDiv = document.createElement('p');
 pInDiv.textContent = 'ME TOO!';
+
+div.appendChild(h1, pInDiv);
+container.appendChild(div);
