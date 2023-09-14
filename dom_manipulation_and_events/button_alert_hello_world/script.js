@@ -1,3 +1,3 @@
 const button = document.querySelector('#btn');
 
-button.
+button.onclick = () => alert("Hello World");
