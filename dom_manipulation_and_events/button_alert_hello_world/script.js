@@ -33,3 +33,7 @@ btn6.addEventListener('click', function (e){
 });
 
 const btn7 = document.querySelector('#btn7');
+
+btn7.addEventListener('click', function (e){
+    e.target.style.background = 'blue';
+});
