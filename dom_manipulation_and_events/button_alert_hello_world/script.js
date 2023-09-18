@@ -41,7 +41,7 @@ btn7.addEventListener('click', function (e){
 const buttons = document.querySelectorAll('button');
 
 buttons.forEach((button) => {
-    button.addEventListener('click', () {
+    button.addEventListener('click', () => {
         alert(button.id);
     });
 });
