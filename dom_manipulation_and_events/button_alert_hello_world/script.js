@@ -14,4 +14,4 @@ function alertFunction() {
 
 const btn3 = document.querySelector('#btn3');
 
-btn3.onclick = alertFunction();
+btn3.onclick = alertFunction;
