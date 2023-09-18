@@ -11,3 +11,5 @@ btn2.addEventListener('click', () => {
 function alertFunction() {
     alert('YAY YOU DID IT!');
 }
+
+const btn3 = document.querySelector('#btn3');
