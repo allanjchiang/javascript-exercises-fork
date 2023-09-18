@@ -31,3 +31,5 @@ const btn6 = document.querySelector('#btn6');
 btn6.addEventListener('click', function (e){
     console.log(e.target);
 });
+
+const btn7 = document.querySelector('#btn7');
