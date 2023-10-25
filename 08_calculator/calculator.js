@@ -1,4 +1,4 @@
-const add = function() {
+const add = function(number1, number2) {
 	
 };
 
