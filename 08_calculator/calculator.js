@@ -6,13 +6,12 @@ const subtract = function(number1, number2) {
 	return number1 - number2;
 };
 
-const sum = function(...theArgs) {
+const sum = function(...numbers) {
   let total = 0;
-  for (const arg of theArgs) {
-    total += arg;
+  for(let num of numbers) {
+    total += num;
   }
   return total;
-	
 };
 
 const multiply = function() {
