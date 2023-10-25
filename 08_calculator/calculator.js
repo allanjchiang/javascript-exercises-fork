@@ -11,7 +11,7 @@ const sum = function(...numbers) {
   for(let num of numbers) {
     total += num;
   }
-  return total;
+  return Number(total);
 };
 
 const multiply = function() {
